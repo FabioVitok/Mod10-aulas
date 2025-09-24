@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Professor
+comment1.params=id\ salario\ nome\ genero
+comment1.target=Professor(int,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Aluno\r\n
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=int\ getSalario()
+comment5.params=salario
+comment5.target=void\ setSalario(int)
+comment6.params=
+comment6.target=java.lang.String\ getNome()
+comment7.params=nome
+comment7.target=void\ setNome(java.lang.String)
+comment8.params=
+comment8.target=int\ getGenero()
+comment9.params=genero
+comment9.target=void\ setGenero(int)
+numComments=10

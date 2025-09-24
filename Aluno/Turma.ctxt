@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Turma
+comment1.params=
+comment1.target=Turma()
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getAlunos()
+comment5.params=nome
+comment5.target=void\ adicionarAluno(java.lang.String)
+comment6.params=ano
+comment6.target=void\ setano(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getano()
+comment8.params=nomeCurso
+comment8.target=void\ setnomeCurso(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ getnomeCurso()
+numComments=10
