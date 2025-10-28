@@ -42,9 +42,11 @@ public class Livro
          public void setIsbn(String isbn){
         this.isbn = isbn;
     }
+     public void exibirInformacoes() {
+        System.out.println("Titulo: " + this.titulo);
+        System.out.println("Autor: " + this.autor);
+        System.out.println("Ano de publicação: " + this.anoPub);
+        System.out.println("ISBN: " + this.isbn);
+        System.out.println("");
+    }
 }
-//Criar um construtor que inicialize todas as variáveis.
-
-//Criar getters e setters para todas as variáveis.
-
-//Criar um método chamado exibirInformacoes() que imprime todas as informações do livro de forma legível.

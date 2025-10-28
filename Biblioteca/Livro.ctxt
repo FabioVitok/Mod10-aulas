@@ -2,6 +2,8 @@
 comment0.target=Livro
 comment1.params=titulo\ autor\ anoPub\ isbn
 comment1.target=Livro(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment10.params=
+comment10.target=void\ exibirInformacoes()
 comment2.params=
 comment2.target=java.lang.String\ getTitulo()
 comment3.params=titulo
@@ -18,4 +20,4 @@ comment8.params=
 comment8.target=java.lang.String\ getIsbn()
 comment9.params=isbn
 comment9.target=void\ setIsbn(java.lang.String)
-numComments=10
+numComments=11

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Lugar
+comment1.params=id
+comment1.target=Lugar(int)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=boolean\ getLivre()
+comment5.params=livre
+comment5.target=void\ setLivre(boolean)
+comment6.params=
+comment6.target=Autocarro\ getAutocarro()
+comment7.params=autocarro
+comment7.target=void\ setAutocarro(Autocarro)
+numComments=8
