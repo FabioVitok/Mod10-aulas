@@ -2,7 +2,7 @@ public class ContaBancariaTest
 {
     public static void main(String [] args)
     {
-        ContaBancaria c1 = new ContaBancaria("Jonas", 100);
+        ContaBancaria c1 = new ContaBancaria("Jonas");
         
         boolean resultadoDoDeposito = c1.depositar(1000);
         

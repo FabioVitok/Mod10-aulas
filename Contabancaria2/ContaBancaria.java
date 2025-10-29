@@ -3,10 +3,9 @@ public class ContaBancaria
     private String titular;
     private double saldo;
     
-    public ContaBancaria(String titular, double deposito)
+    public ContaBancaria(String titular)
     {
        this.titular = titular;
-       this.saldo = deposito;
     }
     
     public String getTitular()
