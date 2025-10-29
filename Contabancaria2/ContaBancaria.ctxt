@@ -1,5 +1,15 @@
 #BlueJ class context
 comment0.target=ContaBancaria
-comment1.params=
-comment1.target=ContaBancaria()
-numComments=2
+comment1.params=titular\ deposito
+comment1.target=ContaBancaria(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getTitular()
+comment3.params=
+comment3.target=double\ getSaldo()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=deposito
+comment5.target=boolean\ depositar(double)
+comment6.params=levantamento
+comment6.target=boolean\ levantar(double)
+numComments=7
