@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ConjucturaDeCollatz
+comment1.params=n
+comment1.target=ConjucturaDeCollatz(int)
+comment2.params=
+comment2.target=int\ getN()
+comment3.params=
+comment3.target=int\ processar()
+comment4.params=nrAValidar
+comment4.target=boolean\ ispair(int)
+numComments=5
