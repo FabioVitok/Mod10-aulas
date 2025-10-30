@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Fada
+comment1.params=nome\ asas
+comment1.target=Fada(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getAsas()
+comment3.params=
+comment3.target=java.lang.String\ voar()
+numComments=4
