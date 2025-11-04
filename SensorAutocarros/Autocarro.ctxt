@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Autocarro
+comment1.params=matricula\ kms
+comment1.target=Autocarro(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ exibirEstadoSensoresFrontais()
+comment3.params=
+comment3.target=java.lang.String\ exibirEstadoSensoresTraseiros()
+comment4.params=
+comment4.target=java.lang.String\ exibirtodos()
+numComments=5

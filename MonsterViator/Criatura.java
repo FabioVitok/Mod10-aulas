@@ -26,10 +26,10 @@ public abstract class Criatura
     
     public String exibirInformacoes(){
         StringBuilder sb = new StringBuilder();
-        sb.append("Nome: ").append(this.nome).append("\n");
-        sb.append("Tipo: ").append(this.tipo).append("\n");
-        sb.append("Reino: ").append(this.REINO).append("\n");
-        sb.append("Numero de Criaturas criadas: ").append(this.contadorDeCriaturas).append("\n");
+        sb.append("Nome: ").append(this.nome).append("/n");
+        sb.append("Tipo: ").append(this.tipo).append("/n");
+        sb.append("Reino: ").append(this.REINO).append("/n");
+        sb.append("Numero de Criaturas criadas: ").append(this.contadorDeCriaturas).append("/n");
         
         return sb.toString();
     }
