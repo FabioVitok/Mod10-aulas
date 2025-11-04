@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MonsterViatorTest
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=fadas
+comment2.target=Fada\ ultimaFadaArray(java.util.ArrayList)
+comment3.params=fadas
+comment3.target=Fada\ primeiraFadaArray(java.util.ArrayList)
+comment4.params=fadas
+comment4.target=Fada\ ultradummy(java.util.ArrayList)
+numComments=5
