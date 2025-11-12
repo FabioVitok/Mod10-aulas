@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Character
+comment1.params=name\ weapon\ homeland\ fightingStyles\ height
+comment1.target=Character(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Construtor\ do\ persoangem\r\n\ \r\n\ @return\ character\r\n
+comment2.params=
+comment2.target=int\ getEnergy()
+comment2.text=\r\n\ Mostra\ quanta\ vida\ tem\ o\ personagem\r\n\ \r\n\ @return\ this.energy\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getAttack()
+comment5.params=
+comment5.target=void\ sufferAttack()
+comment5.text=\r\n\ Simula\ um\ ataque\ sofrido\ por\ um\ personagem\r\n\ Retira\ Energia\ a\ energia\ do\ personagem\r\n\ \r\n\ @retrun\ void\r\n
+comment6.params=
+comment6.target=Character\ clone()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Mostra\ todos\ os\ detalhes\ do\ personagem\r\n\ Mostra\ cada\ variavel\ da\ classe\ e\ o\ seu\ nome\r\n\ \r\n\ @retrun\ stringBuilder\r\n
+numComments=8
