@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Doce
+comment1.params=nome\ preco\ stock\ imagem\ frio
+comment1.target=Doce(java.lang.String,\ double,\ int,\ java.lang.String,\ boolean)
+numComments=2

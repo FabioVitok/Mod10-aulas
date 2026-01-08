@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Utilizador
+comment1.params=username\ email\ password
+comment1.target=Utilizador(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ getSaldo()
+comment3.params=saldo
+comment3.target=void\ setSaldo(double)
+comment4.params=
+comment4.target=java.lang.String\ getUsername()
+comment5.params=
+comment5.target=java.lang.String\ getEmail()
+comment6.params=
+comment6.target=java.lang.String\ getPassword()
+comment7.params=carregamento
+comment7.target=boolean\ carregarSaldo(double)
+comment8.params=desconto
+comment8.target=boolean\ descontarSaldo(double)
+comment9.params=
+comment9.target=boolean\ mostrarSaldo()
+numComments=10

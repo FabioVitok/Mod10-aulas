@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MaquinaVendas
+comment1.params=localizacao\ user
+comment1.target=MaquinaVendas(java.lang.String,\ Utilizador)
+comment2.params=p1\ quantidade
+comment2.target=boolean\ comprar(Produto,\ int)
+numComments=3
