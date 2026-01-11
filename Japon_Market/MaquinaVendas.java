@@ -5,10 +5,11 @@ public class MaquinaVendas
     public Utilizador user;
     ArrayList<Produto> produtos = new ArrayList<Produto>();
     
-    public MaquinaVendas(String localizacao, Utilizador user)
+    public MaquinaVendas(String localizacao, Utilizador user, ArrayList<Produto> produtos)
     {
         this.localizacao = localizacao;
         this.user = user;
+        this.produtos = produtos;
     }
     
     public boolean comprar(Produto p1, int quantidade)

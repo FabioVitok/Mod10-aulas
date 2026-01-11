@@ -69,4 +69,13 @@ public abstract class Produto
        return true;    
     }
     
+    public String mostrar(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("Nome: ").append(this.getNome()).append("\n");
+        sb.append("Tipo: ").append(this.getTipo()).append("\n");
+        sb.append("Preço: ").append(this.getPreco()).append("\n");
+        sb.append("Stock: ").append(this.getStock()).append("\n");
+        return sb.toString();
+        
+    }
 }
