@@ -3,14 +3,16 @@ public class Snack extends Produto
     private boolean prontoComer;
     private static final String TIPO = "Snack";
     
+    //Construtor da class
     public Snack(String nome, double preco, int stock, String imagem, boolean prontoComer)
     {
        super(nome, TIPO, preco, stock, imagem);
        this.prontoComer = prontoComer;
     }
     
+    //Método para exibir as infromaçoes do produto incluindo as informaçoes adicionas dos snacks
     @Override 
-    public String mostrar()
+    public String exibirInfo()
     {
         
         StringBuilder sb = new StringBuilder();

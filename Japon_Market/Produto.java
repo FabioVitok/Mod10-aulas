@@ -6,6 +6,7 @@ public abstract class Produto
     private String imagem;
     private String tipo;
     
+    //Construtor da class abstract Produto
     public Produto(String nome, String tipo, double preco, int stock, String imagem)
     {
         this.nome = nome;
@@ -19,6 +20,7 @@ public abstract class Produto
         this.imagem = imagem;
     }
     
+    //Metodos Get e Set para os atributos do Produto
     public String getNome()
     {
         return this.nome;
@@ -49,9 +51,10 @@ public abstract class Produto
         return this.imagem;
     }
     
+    //Método para reduzir o stock de um protudo
     public boolean reduzirStock(int quantidade)
     {
-        
+        //Verifica se o stock não é menor do que a quantidade que se deseja retirar
         if(this.getStock() >= quantidade)
         {
             this.stock = this.getStock() - quantidade;
@@ -62,14 +65,16 @@ public abstract class Produto
             
         }
     
+    //Método para repor Stock de um produto
     public boolean reStock(int novoStock)
     {
        this.stock = this.getStock() + novoStock;
-       System.out.println("O Stock do produto foi atualizado");
+       //System.out.println("O Stock do produto foi atualizado");
        return true;    
     }
     
-    public String mostrar(){
+    //método para exibir as infromações de um produto
+    public String exibirInfo(){
         StringBuilder sb = new StringBuilder();
         sb.append("Nome: ").append(this.getNome()).append("\n");
         sb.append("Tipo: ").append(this.getTipo()).append("\n");

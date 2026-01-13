@@ -3,14 +3,16 @@ public class Doce extends Produto
     private boolean frio; 
     private static final String TIPO = "Doce";
     
+    //Construtor da class
      public Doce(String nome, double preco, int stock, String imagem,boolean frio)
     {
        super(nome, TIPO, preco, stock, imagem);
        this.frio = frio;
     }
     
+    //Método para exibir as infromaçoes do produto incluindo as informaçoes adicionas dos doces
     @Override 
-    public String mostrar()
+    public String exibirInfo()
     {
         
         StringBuilder sb = new StringBuilder();

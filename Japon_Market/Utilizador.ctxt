@@ -16,6 +16,4 @@ comment7.params=carregamento
 comment7.target=boolean\ carregarSaldo(double)
 comment8.params=desconto
 comment8.target=boolean\ descontarSaldo(double)
-comment9.params=
-comment9.target=boolean\ mostrarSaldo()
-numComments=10
+numComments=9

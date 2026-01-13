@@ -3,14 +3,16 @@ public class Bebida extends Produto
     private boolean energetico;
     private static final String TIPO = "Bebida";
     
+    //Construtor da class
      public Bebida(String nome, double preco, int stock, String imagem, boolean energetico)
     {
        super(nome, TIPO, preco, stock, imagem);
        this.energetico = energetico;
     }
     
+    //Método para exibir as infromaçoes do produto incluindo as informaçoes adicionas das bebidas
     @Override 
-    public String mostrar()
+    public String exibirInfo()
     {
         
         StringBuilder sb = new StringBuilder();

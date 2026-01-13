@@ -4,7 +4,7 @@ public class Utilizador
       public String email;
       public String password;
       public double saldo ;
-  
+     //Construtor da class
      public Utilizador(String username, String email, String password)
         {
             this.username = username;
@@ -16,6 +16,7 @@ public class Utilizador
             this.saldo = 0;
          }
  
+     //Métodos get e set para os atributos da class
      public double getSaldo()
         {
             return this.saldo;
@@ -40,34 +41,39 @@ public class Utilizador
         {
             return this.password;
         }
-        
+     
+     //Método para Carregar saldo na conta do utilizador
      public boolean carregarSaldo (double carregamento)
-     {  
+     {      
+            //Verifica se o carregamento é maior que 0
             if(carregamento > 0){
                  this.setSaldo(this.getSaldo() + carregamento);
-                 System.out.println("Carregamento efetuado com sucesso! O seu saldo atual é " + this.getSaldo() + "€.");
+                 //System.out.println("Carregamento efetuado com sucesso! O seu saldo atual é " + this.getSaldo() + "€.");
                  return true;
             }
                 else{
-                 System.out.println("Não foi possivel efetuar o carregamento, o montante do carregamento é negativo ou nulo.");
+                 //System.out.println("Não foi possivel efetuar o carregamento, o montante do carregamento é negativo ou nulo.");
                  return false;
             }
      }
      
+     //Método para descontar Saldo na conta do utilizador
      public boolean descontarSaldo(double desconto)
      {
+         //Verifica se o desconto é menor ou igual ao saldo na conta do utilizador
          if(desconto <= this.getSaldo()){
                  this.setSaldo(this.getSaldo() - desconto);
                  return true;
             }
          return false;
      }
-     
+     /*
+     //Método para mostrar o saldo do usuário
      public boolean mostrarSaldo () 
      { 
         System.out.println("O seu saldo atual é " + this.getSaldo() + "€."); 
         return true;
      }
-     
+     */
      
 }

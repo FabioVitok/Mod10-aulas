@@ -4,7 +4,7 @@ public class MaquinaVendasTest
     public static void main(String [] args)
     {
         Utilizador user1 = new Utilizador("Fábio", "fabio.vitoriano@icloud.com", "passwow");
-        user1.carregarSaldo(20.50);
+        user1.carregarSaldo(100.50);
         ArrayList<Produto> produtos = new ArrayList<Produto>();
         MaquinaVendas mq1 = new MaquinaVendas("Loures", user1, produtos);
         Doce dc1 = new Doce("mochi", 3.60, 6, "C:/Users/Pictures/mochi", true);
@@ -18,7 +18,35 @@ public class MaquinaVendasTest
         {
             Produto p1 = mq1.produtos.get(i);
             
-            System.out.println(p1.mostrar());
+            System.out.println(p1.exibirInfo());
         }
+        
+        for (int i = 0; i < produtos.size(); i++) 
+        {
+            Produto p1 = mq1.produtos.get(i);
+            mq1.comprar(p1, 6);
+        }
+        
+        for (int i = 0; i < produtos.size(); i++) 
+        {
+            Produto p1 = mq1.produtos.get(i);
+            
+            System.out.println(p1.exibirInfo());
+        }
+        
+        for (int i = 0; i < produtos.size(); i++) 
+        {
+            Produto p1 = mq1.produtos.get(i);
+            
+            p1.reStock(3);
+        }
+        
+        for (int i = 0; i < produtos.size(); i++) 
+        {
+            Produto p1 = mq1.produtos.get(i);
+            
+            System.out.println(p1.exibirInfo());
+        }
+        
     }
 }

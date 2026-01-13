@@ -3,5 +3,5 @@ comment0.target=Bebida
 comment1.params=nome\ preco\ stock\ imagem\ energetico
 comment1.target=Bebida(java.lang.String,\ double,\ int,\ java.lang.String,\ boolean)
 comment2.params=
-comment2.target=java.lang.String\ mostrar()
+comment2.target=java.lang.String\ exibirInfo()
 numComments=3
