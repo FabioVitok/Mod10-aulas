@@ -4,7 +4,14 @@ public class MaquinaVendasTest
     public static void main(String [] args)
     {
         Utilizador user1 = new Utilizador("Fábio", "fabio.vitoriano@icloud.com", "passwow");
-        user1.carregarSaldo(35.50);
+        
+        // Teste do metodo de carregar saldo com uma quantia invalida
+        System.out.println(user1.carregarSaldo(0));
+        
+        // Teste do metodo de carregar saldo com uma quantia valida
+        System.out.println(user1.carregarSaldo(35.50));
+        
+        // Criaçã do arraylist de produtos e adição dos mesmos
         ArrayList<Produto> produtos = new ArrayList<Produto>();
         Doce dc1 = new Doce("mochi", 3.60, 6, "C:/Users/Pictures/mochi", true);
         produtos.add(dc1);
@@ -12,6 +19,8 @@ public class MaquinaVendasTest
         produtos.add(sn1);
         Bebida bb1 = new Bebida("Monster Morango", 1.60, 6, "C:/Users/Pictures/monster_morango", true);
         produtos.add(bb1);
+        
+        //Inicialização da maquina de vendas
         MaquinaVendas mq1 = new MaquinaVendas("Loures", user1, produtos);
         
         

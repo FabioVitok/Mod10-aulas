@@ -44,17 +44,17 @@ public class Utilizador
         }
      
      //Método para Carregar saldo na conta do utilizador
-     public boolean carregarSaldo (double carregamento)
+     public String carregarSaldo (double carregamento)
      {      
             //Verifica se o carregamento é maior que 0
             if(carregamento > 0){
                  this.setSaldo(this.getSaldo() + carregamento);
                  //System.out.println("Carregamento efetuado com sucesso! O seu saldo atual é " + this.getSaldo() + "€.");
-                 return true;
+                 return "Saldo Carregado com sucesso, o seu saldo é: " + this.saldo + "\n";
             }
                 else{
                  //System.out.println("Não foi possivel efetuar o carregamento, o montante do carregamento é negativo ou nulo.");
-                 return false;
+                 return "A quantia que introduziu é inválida.\n";
             }
      }
      

@@ -39,13 +39,13 @@ public class MaquinaVendas
         {
             p1.reduzirStock(quantidade);
             this.user.descontarSaldo(precoTotal);
-            return "Compra Efetuada com sucesso.\n";
+            return "Compra do produto " + p1.getNome() + " efetuada com sucesso.\n";
         }
         else if(p1.verificarStock(quantidade) && !this.user.verificarSaldo(precoTotal))
-            return "Não foi possivel efetuar a compra pois o seu saldo não é sufeciente.\n";
+            return "Não foi possivel efetuar a compra do produto " + p1.getNome() +" pois o seu saldo não é sufeciente.\n";
         else if(!p1.verificarStock(quantidade) && this.user.verificarSaldo(precoTotal))
-             return "Não foi possivel efetuar a compra pois o stock não é sufeciente.\n";
+             return "Não foi possivel efetuar a compra do produto " + p1.getNome() +" pois o stock não é sufeciente.\n";
         else
-             return "Erro! Não foi possivel efetuar a compra.\n";
+             return "Erro! Não foi possivel efetuar a compra do produto " + p1.getNome() + ".\n";
     }
 }

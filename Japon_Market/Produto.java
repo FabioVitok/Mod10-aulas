@@ -77,7 +77,7 @@ public abstract class Produto
     {
        this.stock = this.getStock() + novoStock;
 
-       return "O stock do produto foi reposto com sucesso.\n";    
+       return "O stock do produto "+ this.getNome() + " foi reposto com sucesso.\n";    
     }
     
     // Método para exibir as infromações de um produto
