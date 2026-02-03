@@ -2,6 +2,12 @@
 comment0.target=MaquinaVendas
 comment1.params=localizacao\ user\ produtos
 comment1.target=MaquinaVendas(java.lang.String,\ Utilizador,\ java.util.ArrayList)
-comment2.params=p1\ quantidade
-comment2.target=boolean\ comprar(Produto,\ int)
-numComments=3
+comment2.params=
+comment2.target=java.lang.String\ getLocalizacao()
+comment3.params=
+comment3.target=Utilizador\ getUtilizador()
+comment4.params=
+comment4.target=java.util.ArrayList\ getProdutos()
+comment5.params=p1\ quantidade
+comment5.target=java.lang.String\ comprar(Produto,\ int)
+numComments=6

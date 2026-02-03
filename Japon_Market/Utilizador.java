@@ -1,9 +1,10 @@
 public class Utilizador
 {
-      public String username;
-      public String email;
-      public String password;
-      public double saldo ;
+      private String username;
+      private String email;
+      private String password;
+      private double saldo;
+      
      //Construtor da class
      public Utilizador(String username, String email, String password)
         {
@@ -57,23 +58,19 @@ public class Utilizador
             }
      }
      
-     //Método para descontar Saldo na conta do utilizador
-     public boolean descontarSaldo(double desconto)
-     {
-         //Verifica se o desconto é menor ou igual ao saldo na conta do utilizador
-         if(desconto <= this.getSaldo()){
-                 this.setSaldo(this.getSaldo() - desconto);
-                 return true;
-            }
-         return false;
-     }
-     /*
-     //Método para mostrar o saldo do usuário
-     public boolean mostrarSaldo () 
-     { 
-        System.out.println("O seu saldo atual é " + this.getSaldo() + "€."); 
+      public boolean verificarSaldo(double desconto)
+    {
+        //Verifica se o desconto é menor ou igual ao saldo na conta do utilizador
+        if(desconto <= this.getSaldo()){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean descontarSaldo(double desconto)
+    {
+        this.setSaldo(this.getSaldo() - desconto);
         return true;
-     }
-     */
+    }
      
 }

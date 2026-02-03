@@ -20,7 +20,7 @@ public class Doce extends Produto
         sb.append("Tipo: ").append(this.TIPO).append("\n");
         sb.append("Preço: ").append(this.getPreco()).append("\n");
         sb.append("Stock: ").append(this.getStock()).append("\n");
-        if(frio == true)
+        if(frio)
             sb.append("Colocar no congelador").append("\n");
         return sb.toString();
         

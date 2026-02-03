@@ -20,7 +20,7 @@ public class Snack extends Produto
         sb.append("Tipo: ").append(this.TIPO).append("\n");
         sb.append("Preço: ").append(this.getPreco()).append("\n");
         sb.append("Stock: ").append(this.getStock()).append("\n");
-        if(prontoComer == true)
+        if(prontoComer)
             sb.append("Pronto a comer").append("\n");
         else
         {

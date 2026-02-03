@@ -21,6 +21,7 @@ public abstract class Produto
     }
     
     //Metodos Get e Set para os atributos do Produto
+    
     public String getNome()
     {
         return this.nome;
@@ -51,29 +52,35 @@ public abstract class Produto
         return this.imagem;
     }
     
-    //Método para reduzir o stock de um protudo
-    public boolean reduzirStock(int quantidade)
+    // Método para verificar Stock antes de o retirar
+    public boolean verificarStock(int quantidade)
     {
-        //Verifica se o stock não é menor do que a quantidade que se deseja retirar
+        // Verifica se o stock não é menor do que a quantidade que se deseja retirar
         if(this.getStock() >= quantidade)
         {
-            this.stock = this.getStock() - quantidade;
             return true;
         }
         else
-            return false;  
-            
-        }
-    
-    //Método para repor Stock de um produto
-    public boolean reStock(int novoStock)
-    {
-       this.stock = this.getStock() + novoStock;
-       //System.out.println("O Stock do produto foi atualizado");
-       return true;    
+            return false;
+
     }
     
-    //método para exibir as infromações de um produto
+    // Método para reduzir o stock de um protudo
+    public boolean reduzirStock(int quantidade)
+    {
+        this.stock = this.getStock() - quantidade;
+        return true;
+    }
+    
+    // Método para repor Stock de um produto
+    public String reStock(int novoStock)
+    {
+       this.stock = this.getStock() + novoStock;
+
+       return "O stock do produto foi reposto com sucesso.\n";    
+    }
+    
+    // Método para exibir as infromações de um produto
     public String exibirInfo(){
         StringBuilder sb = new StringBuilder();
         sb.append("Nome: ").append(this.getNome()).append("\n");

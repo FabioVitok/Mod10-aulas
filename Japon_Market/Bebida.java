@@ -20,7 +20,7 @@ public class Bebida extends Produto
         sb.append("Tipo: ").append(this.TIPO).append("\n");
         sb.append("Preço: ").append(this.getPreco()).append("\n");
         sb.append("Stock: ").append(this.getStock()).append("\n");
-        if(energetico == true)
+        if(energetico)
             sb.append("Energético").append("\n");
         else
         {
